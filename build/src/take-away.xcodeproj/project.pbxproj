@@ -1,0 +1,1145 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		029A2C63DADD483D83807364 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E3EB361589EA446A8EAC67BD /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				945EDA6303288EA34BE1FFBB /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		058F908C361F4ACB98EF5B49 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FBE5ADAF4C3440F2B6E9110A /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				003C8D08B0008F35F218E126 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		79B74444531643ADB359F713 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9F2BDC5A6F244DC0A095F42D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				632154660021807A13F64BDB /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				C8B768AFA8E349AE9768F90D /* PBXTargetDependency */,
+				3A2272AC24C948C3BC26CFCF /* PBXTargetDependency */,
+				3054E5C54F1D421B8CB9B46E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		042D0F2BD76B493B99B8B42E /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/options.cpp */ = {isa = PBXBuildFile; fileRef = F4854BD553BD4D9C920BFB3B /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/options.cpp */; };
+		1AF95DF1D148485DBDFBA539 /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9564CC1939914B74B065F487 /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/CMakeLists.txt */; };
+		28250B47B07249FC82FFF69E /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/game.cpp */ = {isa = PBXBuildFile; fileRef = D9C82F3D1DCD416687F7296C /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/game.cpp */; };
+		629A5FC903FA4019ABA3F09D /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/computer_player.h */ = {isa = PBXBuildFile; fileRef = 7EBB2DB88F6248769B6A1381 /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/computer_player.h */; };
+		68BD6C4658DF42B8A40413F3 /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/computer_player.cpp */ = {isa = PBXBuildFile; fileRef = B49D4A3D544749AC9607573F /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/computer_player.cpp */; };
+		9046A5BBE7B640D3A63363E9 /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/options.h */ = {isa = PBXBuildFile; fileRef = 98B2DF99D33B4415B96C02DC /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/options.h */; };
+		A1ACEB32562A40D5AC5C7E27 /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/main.cpp */ = {isa = PBXBuildFile; fileRef = EF556BD5A2C94FFDAF6D1C81 /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/main.cpp */; };
+		D393CA1FA5CB43DAA0D58176 /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/game.h */ = {isa = PBXBuildFile; fileRef = 739B8C48B0F846769467E2B9 /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/game.h */; };
+		EBF72FB1300C41F4966F454B /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D3B5857E16BB4DD7997E32AB /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		03D456ADDC934A0BBFB795DF /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		21A75E4AB6314917950468EE /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		98353FDE14D14DCFB6ACA449 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		D1E9D9E769D74B2DA70C24BB /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		08F482F4633848F6A7051E4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60CC9E8B71434BD9934FF6B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 029A2C63DADD483D83807364;
+			remoteInfo = ZERO_CHECK;
+		};
+		20132E7971BB42A58BE683C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60CC9E8B71434BD9934FF6B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40773FF9E3EC406EB1012402;
+			remoteInfo = "take-away";
+		};
+		96B148B9480145BB910A5157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60CC9E8B71434BD9934FF6B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33233A8FA5D441E09106514D;
+			remoteInfo = project1;
+		};
+		B7BE354D52594944B45AFAFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60CC9E8B71434BD9934FF6B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 029A2C63DADD483D83807364;
+			remoteInfo = ZERO_CHECK;
+		};
+		C767DC91F1E8488395D99E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60CC9E8B71434BD9934FF6B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33233A8FA5D441E09106514D;
+			remoteInfo = project1;
+		};
+		E4EC7C25AFFA4B43BCB2014C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60CC9E8B71434BD9934FF6B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 029A2C63DADD483D83807364;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		739B8C48B0F846769467E2B9 /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/game.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = game.h; path = game.h; sourceTree = SOURCE_ROOT; };
+		7EBB2DB88F6248769B6A1381 /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/computer_player.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = computer_player.h; path = computer_player.h; sourceTree = SOURCE_ROOT; };
+		9564CC1939914B74B065F487 /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		98B2DF99D33B4415B96C02DC /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/options.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = options.h; path = options.h; sourceTree = SOURCE_ROOT; };
+		B354BFCBCEAB4F8D86A51A04 /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B49D4A3D544749AC9607573F /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/computer_player.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = computer_player.cpp; path = computer_player.cpp; sourceTree = SOURCE_ROOT; };
+		D08155C2D1EC4708A6EFB218 /* take-away */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "take-away"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B5857E16BB4DD7997E32AB /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D9C82F3D1DCD416687F7296C /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/game.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = game.cpp; path = game.cpp; sourceTree = SOURCE_ROOT; };
+		E8B474EE47884650BAC97A4D /* project1 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libproject1.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF556BD5A2C94FFDAF6D1C81 /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		F4854BD553BD4D9C920BFB3B /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/options.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = options.cpp; path = options.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		095C69A6D075458ABDED1A7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FB787FBC61422994B2B4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23B53158058147BD922CCECE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8B474EE47884650BAC97A4D /* project1 */,
+				D08155C2D1EC4708A6EFB218 /* take-away */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C14707AEC0B4BD4B092A0BE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B49D4A3D544749AC9607573F /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/computer_player.cpp */,
+				D9C82F3D1DCD416687F7296C /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/game.cpp */,
+				F4854BD553BD4D9C920BFB3B /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/options.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		438E34C44E3647528C2B0D9F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5A60914D06154701A8A1E306 /* project1 */ = {
+			isa = PBXGroup;
+			children = (
+				D92AFF68BCFD4ACBB3320514 /* Header Files */,
+				2C14707AEC0B4BD4B092A0BE /* Source Files */,
+				D3B5857E16BB4DD7997E32AB /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/CMakeLists.txt */,
+			);
+			name = project1;
+			sourceTree = "<group>";
+		};
+		6DAE49CD5DB34B3CAE3F237A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A0EDC31878904381A949E97C /* CMake Rules */,
+				B354BFCBCEAB4F8D86A51A04 /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		7BD4789736A548D1963965CF /* take-away */ = {
+			isa = PBXGroup;
+			children = (
+				8E16067BA724460288388FF4 /* Source Files */,
+				9564CC1939914B74B065F487 /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/CMakeLists.txt */,
+			);
+			name = "take-away";
+			sourceTree = "<group>";
+		};
+		7E981EAE06334CFC90DE1D9E = {
+			isa = PBXGroup;
+			children = (
+				7BD4789736A548D1963965CF /* take-away */,
+				5A60914D06154701A8A1E306 /* project1 */,
+				6DAE49CD5DB34B3CAE3F237A /* ALL_BUILD */,
+				23B53158058147BD922CCECE /* Products */,
+				8EB1E1C1ED444EB8AD100C68 /* Frameworks */,
+				438E34C44E3647528C2B0D9F /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		8E16067BA724460288388FF4 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF556BD5A2C94FFDAF6D1C81 /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8EB1E1C1ED444EB8AD100C68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0EDC31878904381A949E97C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D92AFF68BCFD4ACBB3320514 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EBB2DB88F6248769B6A1381 /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/computer_player.h */,
+				739B8C48B0F846769467E2B9 /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/game.h */,
+				98B2DF99D33B4415B96C02DC /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/options.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33233A8FA5D441E09106514D /* project1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB027635191484E98D451BC /* Build configuration list for PBXNativeTarget "project1" */;
+			buildPhases = (
+				C9713EB4B78647829A8227DC /* Sources */,
+				37FB787FBC61422994B2B4DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43A7E9F76B754EE5A69E3CC9 /* PBXTargetDependency */,
+			);
+			name = project1;
+			productName = project1;
+			productReference = E8B474EE47884650BAC97A4D /* project1 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		40773FF9E3EC406EB1012402 /* take-away */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C2A91A5669845EC827CEB63 /* Build configuration list for PBXNativeTarget "take-away" */;
+			buildPhases = (
+				B733EB00B7044508A25069EB /* Sources */,
+				095C69A6D075458ABDED1A7D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ADE3BDA2EDF44F283EA0947 /* PBXTargetDependency */,
+				31D9A87AD4AE480DAD3B9A4F /* PBXTargetDependency */,
+			);
+			name = "take-away";
+			productName = "take-away";
+			productReference = D08155C2D1EC4708A6EFB218 /* take-away */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60CC9E8B71434BD9934FF6B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1530;
+			};
+			buildConfigurationList = 706B684580624E51A4F292E4 /* Build configuration list for PBXProject "take-away" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				98353FDE14D14DCFB6ACA449 /* Debug */,
+				D1E9D9E769D74B2DA70C24BB /* Release */,
+				03D456ADDC934A0BBFB795DF /* MinSizeRel */,
+				21A75E4AB6314917950468EE /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 7E981EAE06334CFC90DE1D9E;
+			projectDirPath = "/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src";
+			projectRoot = "";
+			targets = (
+				79B74444531643ADB359F713 /* ALL_BUILD */,
+				058F908C361F4ACB98EF5B49 /* RUN_TESTS */,
+				029A2C63DADD483D83807364 /* ZERO_CHECK */,
+				33233A8FA5D441E09106514D /* project1 */,
+				40773FF9E3EC406EB1012402 /* take-away */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		003C8D08B0008F35F218E126 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		632154660021807A13F64BDB /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		910A41151295C5F9742C25BD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		945EDA6303288EA34BE1FFBB /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src
+  make -f /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src
+  make -f /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src
+  make -f /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src
+  make -f /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B733EB00B7044508A25069EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1ACEB32562A40D5AC5C7E27 /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9713EB4B78647829A8227DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BD6C4658DF42B8A40413F3 /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/computer_player.cpp */,
+				28250B47B07249FC82FFF69E /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/game.cpp */,
+				042D0F2BD76B493B99B8B42E /* /Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src/options.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3054E5C54F1D421B8CB9B46E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40773FF9E3EC406EB1012402 /* take-away */;
+			targetProxy = 20132E7971BB42A58BE683C6 /* PBXContainerItemProxy */;
+		};
+		31D9A87AD4AE480DAD3B9A4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33233A8FA5D441E09106514D /* project1 */;
+			targetProxy = C767DC91F1E8488395D99E05 /* PBXContainerItemProxy */;
+		};
+		3A2272AC24C948C3BC26CFCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33233A8FA5D441E09106514D /* project1 */;
+			targetProxy = 96B148B9480145BB910A5157 /* PBXContainerItemProxy */;
+		};
+		43A7E9F76B754EE5A69E3CC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 029A2C63DADD483D83807364 /* ZERO_CHECK */;
+			targetProxy = B7BE354D52594944B45AFAFE /* PBXContainerItemProxy */;
+		};
+		7ADE3BDA2EDF44F283EA0947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 029A2C63DADD483D83807364 /* ZERO_CHECK */;
+			targetProxy = 08F482F4633848F6A7051E4A /* PBXContainerItemProxy */;
+		};
+		C8B768AFA8E349AE9768F90D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 029A2C63DADD483D83807364 /* ZERO_CHECK */;
+			targetProxy = E4EC7C25AFFA4B43BCB2014C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		014A07BF376A493A942BB820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/Release/libproject1.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "take-away";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/build/take-away.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1502AC9C2C5C4D8F850D7190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		18F7E75DA5854F74A546989E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3FCB3B501C254A85996A69FC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4FD12DE7A74340EA80A33431 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		501AC723FF764287A93DE7CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = project1;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/build/project1.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5DB236F696B8459784C0D0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6242537B0FAA40D7B9733C1A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = project1;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/build/project1.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6E88EB99BFE14E73B1C3BBA7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7A5C3F56D6B042C7BF545E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
+				SYMROOT = "/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/build";
+			};
+			name = Debug;
+		};
+		87725F95D83144BBB5D4F63D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		8C3C0634DA5D4B028E49CB7D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9A86D26F4D5E4748A2E1E66A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/build";
+			};
+			name = MinSizeRel;
+		};
+		9D25850D386946958163E180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9D4682520FBB4D119FDA8080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A1EFEE0018AD431693AE1127 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/MinSizeRel/libproject1.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "take-away";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/build/take-away.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AEEE6451470F4CCBACD3F5E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = project1;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/build/project1.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C4DB9791CCD84C47881A36FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/build";
+			};
+			name = Release;
+		};
+		CD59C0BFE7134E4695EE7BAA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = project1;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/build/project1.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D3C80EC9A4E149DEA74CF1B4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D7C12F36E9644CC98EA551DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F8947CA7EC8548B38397CAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/Debug/libproject1.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "take-away";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/build/take-away.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F941DB558D4A4D8883D3A35A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/src","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/RelWithDebInfo/libproject1.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "take-away";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/build/take-away.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FB7607E80CD34654B05C1A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C2A91A5669845EC827CEB63 /* Build configuration list for PBXNativeTarget "take-away" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8947CA7EC8548B38397CAC7 /* Debug */,
+				014A07BF376A493A942BB820 /* Release */,
+				A1EFEE0018AD431693AE1127 /* MinSizeRel */,
+				F941DB558D4A4D8883D3A35A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		706B684580624E51A4F292E4 /* Build configuration list for PBXProject "take-away" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A5C3F56D6B042C7BF545E15 /* Debug */,
+				C4DB9791CCD84C47881A36FE /* Release */,
+				9A86D26F4D5E4748A2E1E66A /* MinSizeRel */,
+				87725F95D83144BBB5D4F63D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9F2BDC5A6F244DC0A095F42D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB236F696B8459784C0D0A9 /* Debug */,
+				1502AC9C2C5C4D8F850D7190 /* Release */,
+				D3C80EC9A4E149DEA74CF1B4 /* MinSizeRel */,
+				8C3C0634DA5D4B028E49CB7D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CDB027635191484E98D451BC /* Build configuration list for PBXNativeTarget "project1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEE6451470F4CCBACD3F5E0 /* Debug */,
+				501AC723FF764287A93DE7CD /* Release */,
+				6242537B0FAA40D7B9733C1A /* MinSizeRel */,
+				CD59C0BFE7134E4695EE7BAA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E3EB361589EA446A8EAC67BD /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D25850D386946958163E180 /* Debug */,
+				9D4682520FBB4D119FDA8080 /* Release */,
+				3FCB3B501C254A85996A69FC /* MinSizeRel */,
+				18F7E75DA5854F74A546989E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FBE5ADAF4C3440F2B6E9110A /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C12F36E9644CC98EA551DF /* Debug */,
+				FB7607E80CD34654B05C1A3C /* Release */,
+				6E88EB99BFE14E73B1C3BBA7 /* MinSizeRel */,
+				4FD12DE7A74340EA80A33431 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60CC9E8B71434BD9934FF6B2 /* Project object */;
+}

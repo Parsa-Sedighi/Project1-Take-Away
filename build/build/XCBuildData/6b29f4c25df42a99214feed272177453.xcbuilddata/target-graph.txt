@@ -1,0 +1,10 @@
+Target dependency graph (5 targets)
+Target 'RUN_TESTS' in project 'project1' (no dependencies)
+Target 'ALL_BUILD' in project 'project1'
+➜ Explicit dependency on target 'project1' in project 'project1'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'project1'
+➜ Explicit dependency on target 'take-away' in project 'project1'
+Target 'take-away' in project 'project1'
+➜ Explicit dependency on target 'project1' in project 'project1'
+Target 'ZERO_CHECK' in project 'project1' (no dependencies)
+Target 'project1' in project 'project1' (no dependencies)

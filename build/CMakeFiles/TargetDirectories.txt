@@ -1,0 +1,8 @@
+/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/CMakeFiles/RUN_TESTS.dir
+/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/CMakeFiles/ALL_BUILD.dir
+/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/CMakeFiles/ZERO_CHECK.dir
+/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/CMakeFiles/take-away.dir
+/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/CMakeFiles/project1.dir
+/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/CMakeFiles/RUN_TESTS.dir
+/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/CMakeFiles/ALL_BUILD.dir
+/Users/parsasedighi/Desktop/cisc187-sp24-fire29/project1-take-away/build/src/CMakeFiles/ZERO_CHECK.dir

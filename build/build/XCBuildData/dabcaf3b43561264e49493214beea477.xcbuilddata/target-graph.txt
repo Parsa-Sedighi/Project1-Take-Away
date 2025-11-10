@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'take-away' in project 'project1'
+➜ Explicit dependency on target 'project1' in project 'project1'
+Target 'project1' in project 'project1' (no dependencies)
